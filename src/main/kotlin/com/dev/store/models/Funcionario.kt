@@ -10,7 +10,7 @@ data class Funcionario(
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    val id: Long,
+    val id: Long? = null,
 
     val salario: Double? = null,
 
